@@ -11,6 +11,6 @@ class CepService {
       throw Exception('cep não encontrado');
     }
 
-    return simpleCepToMap(result);
+    return simpleCepToMap(result.data);
   }
 }
